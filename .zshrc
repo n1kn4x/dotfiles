@@ -100,6 +100,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim='nvim'
+alias :q='exit'
 
 # Created by `pipx` on 2023-01-05 17:19:16
 export PATH="$PATH:/home/niklas/.local/bin"
