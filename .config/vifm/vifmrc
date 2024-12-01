@@ -13,6 +13,8 @@ nnoremap ,n :!nautilus %d 2> /dev/null &<cr>
 " Set line numbers
 set number
 
+nnoremap <space> tj
+
 
 " ------------------------------------------------------------------------------
 
