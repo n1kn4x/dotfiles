@@ -16,5 +16,6 @@ vim.cmd([[
       \   '-interaction=nonstopmode',
       \ ],
       \}
-  nmap <localleader>v <plug>(vimtex-view)
 ]])
+vim.keymap.set('n', '<leader>tv', '<cmd>VimtexView<cr>')
+vim.keymap.set('n', '<leader>tc', '<cmd>VimtexCompile<cr>')
