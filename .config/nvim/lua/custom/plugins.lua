@@ -60,6 +60,25 @@ local plugins = {
   --   "mg979/vim-visual-multi",
   --   lazy = false,
   -- }
+
+  -- LateX plugin for syntax, comiling, synctex etc.
+  {
+    "lervag/vimtex",
+    lazy = false,
+    init = function()
+      require "custom.configs.vimtex"
+    end
+  },
+
+  -- Plugin for sending code to REPL (python or ...)
+  {
+    "Vigemus/iron.nvim",
+    lazy = false,
+    init = function ()
+      require "custom.configs.iron"
+    end,
+  },
+
 }
 
 return plugins

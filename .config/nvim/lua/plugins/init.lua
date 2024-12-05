@@ -242,23 +242,6 @@ local default_plugins = {
     end,
   },
 
-  -- LateX plugin for syntax, comiling, synctex etc.
-  {
-    "lervag/vimtex",
-    lazy = false,
-    init = function()
-      require "plugins.configs.vimtex"
-    end
-  },
-
-  {
-    "Vigemus/iron.nvim",
-    lazy = false,
-    init = function ()
-      require "plugins.configs.iron"
-    end,
-  },
-
 }
 
 local config = require("core.utils").load_config()
