@@ -172,9 +172,9 @@ M.lspconfig = {
       "LSP definition type",
     },
 
-    ["<leader>ra"] = {
+    ["<F2>"] = {
       function()
-        require("nvchad.renamer").open()
+        vim.lsp.buf.rename()
       end,
       "LSP rename",
     },

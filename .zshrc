@@ -105,3 +105,12 @@ alias :q='exit'
 
 # Created by `pipx` on 2023-01-05 17:19:16
 export PATH="$PATH:/home/niklas/.local/bin"
+
+# >>> juliaup initialize >>>
+
+# !! Contents within this block are managed by juliaup !!
+
+path=('/home/niklas/.juliaup/bin' $path)
+export PATH
+
+# <<< juliaup initialize <<<
