@@ -102,7 +102,6 @@ source $ZSH/oh-my-zsh.sh
 alias vim='nvim'
 alias vi='nvim'
 alias :q='exit'
-alias ;q='exit'
 
 # Created by `pipx` on 2023-01-05 17:19:16
 export PATH="$PATH:/home/niklas/.local/bin"
