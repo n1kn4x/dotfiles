@@ -85,7 +85,7 @@ source $ZSH/oh-my-zsh.sh
  if [[ -n $SSH_CONNECTION ]]; then
    export EDITOR='nvim'
  else
-   export EDITOR='mvim'
+   export EDITOR='nvim'
  fi
 
 # Compilation flags
@@ -102,6 +102,7 @@ source $ZSH/oh-my-zsh.sh
 alias vim='nvim'
 alias vi='nvim'
 alias :q='exit'
+alias ;q='exit'
 
 # Created by `pipx` on 2023-01-05 17:19:16
 export PATH="$PATH:/home/niklas/.local/bin"
