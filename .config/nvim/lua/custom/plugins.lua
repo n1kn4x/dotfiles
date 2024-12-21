@@ -86,6 +86,20 @@ local plugins = {
     lazy = false, -- This plugin is already lazy
   },
 
+  -- Plugin for file managin using Oil.nvim
+  {
+    'stevearc/oil.nvim',
+    ---@module 'oil'
+    ---@type oil.SetupOpts
+    opts = {},
+    -- Optional dependencies
+    dependencies = { { "echasnovski/mini.icons", opts = {} } },
+    -- dependencies = { "nvim-tree/nvim-web-devicons" }, -- use if prefer nvim-web-devicons
+    init = function ()
+      require "custom.configs.oil"
+    end,
+  },
+
   -- Plugin for using LazyGit inside of Nvim
   {
     "kdheepak/lazygit.nvim",
