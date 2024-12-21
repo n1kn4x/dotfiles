@@ -79,6 +79,13 @@ local plugins = {
     end,
   },
 
+  -- Plugin for RUST development 
+  {
+    'mrcjkb/rustaceanvim',
+    version = '^5', -- Recommended
+    lazy = false, -- This plugin is already lazy
+  },
+
   -- Plugin for using LazyGit inside of Nvim
   {
     "kdheepak/lazygit.nvim",
