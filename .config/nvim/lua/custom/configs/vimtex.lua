@@ -16,6 +16,8 @@ vim.cmd([[
       \   '-interaction=nonstopmode',
       \ ],
       \}
+  let g:vimtex_quickfix_open_on_warning = 0
 ]])
+
 vim.keymap.set('n', '<leader>tv', '<cmd>VimtexView<cr>')
 vim.keymap.set('n', '<leader>tc', '<cmd>VimtexCompile<cr>')
