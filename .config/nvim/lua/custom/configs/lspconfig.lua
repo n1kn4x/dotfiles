@@ -69,7 +69,17 @@ lspconfig.julials.setup{
         end
     end
 }
-lspconfig.pylsp.setup({})
+lspconfig.pylsp.setup({
+  settings = {
+    pylsp = {
+      plugins = {
+        pycodestyle = {
+          enabled=false -- disable linter
+        }
+      }
+    }
+  }
+})
 lspconfig.texlab.setup({})
 
 -- Feed the LSP suggestions to autocomplete plugin
