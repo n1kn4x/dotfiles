@@ -5,3 +5,9 @@
 --   pattern = "*",
 --   command = "tabdo wincmd =",
 -- })
+
+vim.keymap.set('n', '<C-d>', '10j', { noremap = true, silent = true })
+vim.keymap.set('n', '<C-u>', '10k', { noremap = true, silent = true })
+
+vim.keymap.set('v', '<C-d>', '10j', { noremap = true, silent = true })
+vim.keymap.set('v', '<C-u>', '10k', { noremap = true, silent = true })
